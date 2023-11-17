@@ -1,0 +1,72 @@
+﻿body {
+    /*background-color: #EDF7F4;*/
+    height:100%;
+    width:100%;
+}
+#btnExplore,#btnPlace {
+    position:relative;
+    left:820px;
+    height: 30px;
+    background-color: white;
+    color: darkblue;
+    border: 1px groove deeppink;
+    border-radius: 30px;
+    text-shadow: 3px 2px 5px 3px pink;
+    outline:none;
+}
+.header {
+    line-height: 20px;
+    vertical-align:middle;
+    background-color: greenyellow;
+}
+#content{
+    position:relative;
+    margin-left:-900px;
+    left:500px;
+    
+}
+.Search {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+
+#imgPhone {
+    position: relative;
+    border-radius: 10px;
+    z-index: 1;
+    
+}
+
+.phoneno {
+    position: relative;
+    width: 200px;
+    left: 73px;
+    top: -50px;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.phoneSlider {
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    right: 0px;
+    transition: width 1s;
+    z-index: 5;
+}
+.phoneSlider:hover{
+        width: 250px;
+    }
+
+.SliderOptions {
+    position: relative;
+    line-height:30px;
+    font-size:30px;
+    color:darkblue;
+}
+/*#imgScrollOpen{
+    height:70px;
+    width:90px;
+    z-index:1;
+}*/
+

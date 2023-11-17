@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main_Page.master.cs" Inherits="HeritageTourismWebsite.Main_Page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="HeritageTourismWebsite_Style_Sheet.css" rel="stylesheet" type="text/css" />
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="Header">
+            
+            <div class="headerButtons">
+                <asp:Button ID="btnExplore" runat="server" Text="Home Page" />
+                <div class="SliderOptions">
+                <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/UserPage.aspx">Museum</asp:HyperLink>
+            </div>
+                </div>
+            <div class="SliderOptions">
+            <div class="SliderOptions">
+                <asp:HyperLink ID="HyperLink2" runat="server">Forts</asp:HyperLink>
+            </div>
+            <div class="SliderOptions">
+                <asp:HyperLink ID="HyperLink3" runat="server">Caves</asp:HyperLink>
+            </div>
+                </div>
+             <a href="UserPage.aspx">Hello</a>
+            </div>
+                <div class="phoneSlider"">
+                    
+                   <asp:Image ID="phoneSlider" runat="server" Height="70px" ImageUrl="~/phone.png" />
+                    
+                    <div class="phoneno">
+                        +91 - 9976543219
+                    </div>
+                        
+
+                
+            </div>
+            
+        
+            <div id="content">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+            
+    </form>
+</body>
+</html>
